@@ -1,4 +1,112 @@
+/*************Base Style**************/
+
+
 body {
-    background-color: #1f202b;
+    width: 1400px;
     color: white;
+    font-family: 'Source Code Pro', monospace;
+    background-color: #1f202b;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/*************Grid**************/
+
+#portfolio {
+    height: 1500px;
+}
+
+#about,
+#contact {
+    height: 550px;
+}
+
+.full {
+    width: 1400px;
+}
+
+.half {
+    width: 700px;
+    float: left;
+
+}
+
+.third {
+    width: 500px;
+    float: left;
+}
+
+/*************header**************/
+header .full {
+    background-color: #1f202b;
+    height: 75px;
+}
+
+nav ul li {
+    float: right;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.half nav {
+    clear: both;
+}
+
+header {
+    height 800px;
+    background-image: url(../img/hero-background.png);
+    background-size: cover;
+}
+
+.half h2 {
+    font-size: 31px;
+    line-height: 28px;
+    clear: both;
+}
+
+span {
+    color: #f70074;
+}
+
+header h1 {
+    font-size: 72px;
+    width: 700px;
+    padding-bottom: 275px;
+}
+
+/*************portfolior**************/
+#portfolio,
+.half {
+    height: 450px;
+}
+
+
+/*************about**************/
+#about {
+    background-image: url(../img/about-me.png);
+    background-size: cover;
+
+}
+
+
+
+
+/*************foooter**************/
+
+
+
+.melissa {
+    border-radius: 50%;
+    width: 100px;
+    height: 250x;
+
 }
