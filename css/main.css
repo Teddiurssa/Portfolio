@@ -1,110 +1,139 @@
 /*************Base Style**************/
-
-
 body {
-    width: 1400px;
-    color: white;
-    font-family: 'Source Code Pro', monospace;
-    background-color: #1f202b;
+  width: 1400px;
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+  background-color: #1f202b;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /*************Grid**************/
-
-#portfolio {
-    height: 1500px;
+#head {
+  height: 800px;
 }
 
 #about,
 #contact {
-    height: 550px;
+  height: 550px;
 }
 
 .full {
-    width: 1400px;
+  width: 1400px;
 }
 
 .half {
-    width: 700px;
-    float: left;
-
+  width: 700px;
+  float: left;
 }
 
 .third {
-    width: 500px;
-    float: left;
+  width: 460px;
+  float: left;
 }
 
 /*************header**************/
-header .full {
-    background-color: #1f202b;
-    height: 75px;
-}
-
-nav ul li {
-    float: right;
-    display: inline-block;
+#nav-bar {
+  background-color: #1f202b;
+  height: 75px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    font-size: 30px;
-    padding-left: 80px;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 45px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  display: inline-block;
 }
 
 .half nav {
-    clear: both;
+  clear: both;
 }
 
 header {
-    height 800px;
-    background-image: url(../img/hero-background.png);
-    background-size: cover;
+  background-image: url(../img/hero-background.png);
+  background-size: 1400px 800px;
 }
 
 .half h2 {
-    font-size: 31px;
-    line-height: 28px;
-    clear: both;
+  font-size: 31px;
+  line-height: 29px;
+  clear: both;
 }
 
 span {
-    color: #f70074;
+  color: #f70074;
 }
 
 header h1 {
-    font-size: 72px;
-    width: 700px;
-    padding-bottom: 275px;
+  font-size: 72px;
+  width: 700px;
+  padding-bottom: 275px;
 }
 
 /*************portfolior**************/
-#portfolio,
-.half {
-    height: 450px;
+#portfolio .half {
+  height: 350px;
 }
 
+.half img {
+  width: 550px;
+  height: 350px;
+  border: 1px, solid, white;
+}
+
+#portfolio h2 {
+  text-align: center;
+  color: #f70074;
+}
 
 /*************about**************/
 #about {
-    background-image: url(../img/about-me.png);
-    background-size: cover;
-
+  background-image: url(../img/about-me.png);
+  background-size: cover;
+  clear: both;
+  margin-bottom: 100px;
 }
 
+#about .full {
+  text-align: center;
+  color: #f70074;
+}
 
+#about .half {
+  width: 600px;
+  height: 250px;
+  color: white;
+}
 
 /*************foooter**************/
+#follow .third {
+  width: 400px;
+}
 
+#email .third {
+  width: 500px;
+}
+
+#meet-up .third {
+  width: 500px;
+}
+
+#contact .full {
+  text-align: center;
+}
+
+#copy-right {
+  float: left;
+}
 
 .melissa {
-    border-radius: 50%;
-    width: 100px;
-    height: 250x;
-
+  border-radius: 50%;
+  width: 100px;
+  height: 250px;
 }
