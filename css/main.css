@@ -2,6 +2,7 @@
 body {
     width: 1400px;
     background-color: #1f202b;
+    margin: 0 auto !important;
 }
 
 ul {
@@ -118,7 +119,7 @@ header h1 {
 .half img {
     width: 500px;
     height: 350px;
-    border: 1px, solid, white;
+    border: 1px solid white;
 }
 
 #portfolio h2 {
