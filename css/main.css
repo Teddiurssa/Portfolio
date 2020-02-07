@@ -12,9 +12,7 @@ ul {
 /*************Grid**************/
 #head {
     height: 800px;
-
 }
-
 
 #about,
 #contact {
@@ -69,8 +67,14 @@ header {
     text-align: left;
 }
 
+#name {
+    color: #f70074;
+    font-family: 'Montserrat', sans-serif;
+}
+
 span {
     color: #f70074;
+    font-family: 'Bangers', sans-serif;
 }
 
 header h1 {
@@ -83,7 +87,7 @@ header h1 {
 
 /*************portfolior**************/
 #portfolio {
-    margin: 20px 100px 20px 100px
+    margin: 20px 100px 20px 100px;
 }
 
 #portfolio .full h2 {
@@ -94,12 +98,17 @@ header h1 {
     font-weight: lighter;
 }
 
-#portfolio .half h3 {
+#rogue,
+#jubilee,
+#graphic {
+    text-decoration: underline;
+    text-decoration-color: #f70074;
+}
 
+#portfolio .half h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: bold;
-
 }
 
 #portfolio .half p {
@@ -113,13 +122,12 @@ header h1 {
     height: 350px;
     width: 650px;
     margin: 50px 0px 50px 0px;
-
 }
 
 .half img {
     width: 500px;
     height: 350px;
-    border: 1px solid white;
+    border: 2px solid #f70074;
 }
 
 #portfolio h2 {
@@ -130,7 +138,6 @@ header h1 {
 
 #portfolio .full {
     color: white;
-
 }
 
 /*************about**************/
@@ -141,7 +148,6 @@ header h1 {
     margin-bottom: 100px;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 #about .full h2 {
     text-align: center;
@@ -162,7 +168,6 @@ header h1 {
     margin: 20px 10px 0px 100px;
     color: black;
     font-size: 20px;
-
 }
 
 #about .half {
@@ -194,20 +199,8 @@ header h1 {
     font-size: 24px;
 }
 
-#follow .third {
-    width: 400px;
-}
-
 #follow a {
     margin: 20px;
-}
-
-#email .third {
-    width: 500px;
-}
-
-#meet-up .third {
-    width: 500px;
 }
 
 #contact .full {
@@ -221,5 +214,6 @@ header h1 {
 
 .melissa {
     border-radius: 50%;
-    width: 100px;
+    width: 150px;
+    border: 2px solid #f70074;
 }
